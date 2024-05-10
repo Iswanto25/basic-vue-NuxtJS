@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root {
+    --icon-card-size: 20px;
+    /* --bg-body: #0d0dbb; */
+    --bg-body: #f5f5f9;
+    --font-body: Montserrat;
+    --font-number: #697a8d;
+    --font-text: #566a7f;
+}
+
+section {
+    padding: 20px 0;
+    overflow: hidden;
+    box-shadow: 0px 3px 5px 0px  rgba(128, 128, 128, 0.438);
+}
+
+.section-bg {
+    background-color: #f2f5fa;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 0;
+    color: #5777ba;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-title p {
+    margin-bottom: 0;
+}
