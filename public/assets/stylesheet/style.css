@@ -1,39 +1,73 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Pacifico&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css");
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 :root {
-    --icon-card-size: 20px;
-    /* --bg-body: #0d0dbb; */
-    --bg-body: #f5f5f9;
-    --font-body: Montserrat;
-    --font-number: #697a8d;
-    --font-text: #566a7f;
+    --primary: #2563eb;
+    --primary-dark: #1e40af;
+    --hero-bg: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+    --bg-body: #ffffff;
+    --bg-secondary: #f8fafc;
+    --text-main: #0f172a;
+    --text-muted: #64748b;
+    --border-color: #e2e8f0;
+    --font-main: 'Inter', sans-serif;
+    --card-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --card-shadow-hover: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+body {
+    font-family: var(--font-main);
+    color: var(--text-main);
+    background-color: var(--bg-body);
+    line-height: 1.6;
 }
 
 section {
-    padding: 20px 0;
-    overflow: hidden;
-    box-shadow: 0px 3px 5px 0px  rgba(128, 128, 128, 0.438);
+    padding: 100px 0;
 }
 
-.section-bg {
-    background-color: #f2f5fa;
+.section-title-alt {
+    margin-bottom: 50px;
 }
 
-.section-title {
-    text-align: center;
-    margin-bottom: 40px;
+.section-title-alt h2 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: var(--text-main);
+    margin-bottom: 1.5rem;
 }
 
-.section-title h2 {
-    font-size: 32px;
-    font-weight: 400;
-    padding-bottom: 0;
-    color: #5777ba;
-    font-family: "Poppins", sans-serif;
+.card {
+    border: 1px solid var(--border-color);
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+    background: white;
 }
 
-.section-title p {
-    margin-bottom: 0;
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.btn-white {
+    background-color: white;
+    color: var(--primary);
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.btn-white:hover {
+    background-color: #f1f5f9;
+    color: var(--primary-dark);
+}
+
+.navbar-custom {
+    background: white;
+    border-bottom: 1px solid var(--border-color);
+    padding: 1rem 0;
 }

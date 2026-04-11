@@ -2,40 +2,60 @@
 import { ref, onMounted } from 'vue';
 const currentYear = ref<number>(new Date().getFullYear());
 onMounted(() => {
-  const currentYearElement = document.getElementById("currentYear");
-  if (currentYearElement) {
-    currentYearElement.textContent = currentYear.value.toString();
-  }
-
-  AOS.init();
-  
+  AOS.init({
+      once: true,
+      duration: 1000,
+  });
 });
 </script>
 
 <style scoped>
-  footer .footer {
-    width: 100%;
-    height: 70px;
-  }
+footer {
+    padding: 3rem 0;
+    background: white;
+    border-top: 1px solid var(--border-color);
+}
+
+.footer-logo {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.footer-text {
+    color: var(--text-muted);
+    font-size: 0.875rem;
+}
+
+.footer-link {
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-link:hover {
+    color: var(--primary);
+}
 </style>
 
 <template>
-  <div>
-    <footer class="footer bg-light py-3 border-top border-bottom shadom-sm">
-      <div class="container-fluid">
-          <div class="row">
-              <div class="col text-start">
-                  <span class="text-muted"><b style="font-weight: bold;">
-                      </b> v1.0.0</span>
-              </div>
-              <div class="col text-end">
-                  <span class="text-muted" id="copyright">
-                      <a href="httP://iswantogroup.my.id" class="text-muted" style="text-decoration: none;" target="_blank">Iswanto Group</a> © <span id="currentYear">2024</span>
-                  </span>
-              </div>
+  <footer>
+    <div class="container">
+      <div class="row align-items-end">
+        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+          <a href="/" class="footer-logo">ISWANTO.</a>
+          <p class="footer-text mt-2 mb-0">Building digital experiences with passion and precision.</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <div class="footer-text">
+            &copy; {{ currentYear }} <a href="https://iswantogroup.my.id" class="footer-link fw-bold" target="_blank">Iswanto Group</a>. 
+            <span class="ms-2">v2.0.0</span>
           </div>
+        </div>
       </div>
-    </footer>
-  </div>
+    </div>
+  </footer>
 </template>
 
