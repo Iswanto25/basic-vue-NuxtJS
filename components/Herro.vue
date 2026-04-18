@@ -150,7 +150,7 @@
             Expertise in building scalable backend architectures with <strong>TypeScript</strong>, <strong>NestJS</strong>, and <strong>Express</strong>. Integrating complex business logic into high-performance digital solutions.
           </p>
           <div class="d-flex gap-3 justify-content-lg-start justify-content-center">
-            <a href="http://iswantogroup.my.id/public/Agung-Iswanto.pdf" target="_blank" class="btn btn-primary px-5 py-3">
+            <a href="/CV%20Agung%20Iswanto.pdf" download="CV Agung Iswanto.pdf" target="_blank" class="btn btn-primary px-5 py-3">
               Download CV <i class="fa-solid fa-download ms-2"></i>
             </a>
           </div>

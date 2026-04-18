@@ -77,10 +77,10 @@ const personalInfo = [
       <div class="about-grid" data-aos="fade-up">
         <div class="description-text">
           <p>
-            Saya adalah seorang <strong>Web Developer</strong> dengan fokus utama pada pengalaman backend (Express.js, TypeScript, dan NestJS). Saya memiliki kemahiran dalam membangun sistem berbasis arsitektur microservices serta melakukan integrasi sistem dan integrasi kebutuhan bisnis ke berbagai sektor mulai dari perbankan, pemerintahan, hingga korporasi.
+            Saya adalah seorang <strong>Web Developer</strong> yang berfokus pada pengembangan backend menggunakan Express.js, TypeScript, dan NestJS. Saya memiliki pengalaman dalam membangun sistem berbasis microservices serta membantu integrasi sistem untuk kebutuhan bisnis di berbagai sektor, termasuk perbankan, pemerintahan, dan korporasi.
           </p>
           <p>
-            Saya telah berkontribusi dalam pembangunan berbagai aplikasi dan layanan backend yang mendukung skalabilitas dan efisiensi operasional tinggi. Dengan dedikasi untuk menghadirkan kualitas terbaik, saya terus mengeksplorasi teknologi baru yang dapat meningkatkan kualitas solusi digital yang saya bangun.
+            Saya telah berkontribusi dalam pengembangan berbagai aplikasi dan layanan backend yang mengutamakan fungsionalitas dan efisiensi operasional. Dengan semangat untuk terus berkembang, saya aktif mempelajari teknologi terbaru guna menghadirkan solusi digital yang relevan dan handal.
           </p>
         </div>
         
