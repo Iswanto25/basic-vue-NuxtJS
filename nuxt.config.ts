@@ -41,6 +41,10 @@ export default defineNuxtConfig({
         {
           src: 'https://kit.fontawesome.com/24c28a14e5.js',
           crossorigin: 'anonymous'
+        },
+        {
+          src: '/_vercel/insights/script.js',
+          defer: true
         }
       ]
     }
